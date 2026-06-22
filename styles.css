@@ -26,7 +26,12 @@ html {
 body {
   min-height: 100dvh;
   font-family: 'Playfair Display', Georgia, serif;
-  background-color: #FFFCF5;
+  background: linear-gradient(
+    to bottom, 
+    #FFFCF5 0px, 
+    #FFFCF5 543px, 
+    #FCE9EE 100%
+  );
   display: flex;
   justify-content: center;
   align-items: flex-start;
